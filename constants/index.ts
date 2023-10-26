@@ -65,7 +65,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Admin Officer", value: "+84 93-456-789" },
-    { label: "Email Officer", value: "vietwandercustomer@vietwander.com" },
+    { label: "Email Officer", value: "vwcs@vietwander.com" },
   ],
 };
 
