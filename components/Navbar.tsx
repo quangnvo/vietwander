@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import { Collapse } from "@material-tailwind/react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
+import Image from "next/image";
 import Button from "./Button";
 
 export default function NavBar() {

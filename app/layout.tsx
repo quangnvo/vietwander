@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-// import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         {/* Chỗ này là để NavBar */}
-        {/* <Navbar /> */}
+        <Navbar />
 
         <main className='relative overflow-hidden'>
           {children}
