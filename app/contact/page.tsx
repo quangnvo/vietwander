@@ -14,7 +14,7 @@ const Contact = () => {
 					<div className="max-w-3xl mx-auto">
 						{/* Title */}
 						<h1 className="text-xl lg:text-2xl font-semibold text-center mb-7">
-							We're here to hear from you 😊.
+							We're here to hear from you 😊
 						</h1>
 						<div className="py-8 text-base leading-6 space-y-12 sm:text-lg sm:leading-7">
 

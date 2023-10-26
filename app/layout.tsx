@@ -17,14 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        {/* Chỗ này là để NavBar */}
         <Navbar />
 
         <main className='relative overflow-hidden'>
           {children}
         </main>
 
-        {/* Chỗ này là để Footer */}
         <Footer />
       </body>
     </html>
