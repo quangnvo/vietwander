@@ -116,7 +116,23 @@ export default function NavBar() {
 				</button>
 			</div>
 
-
+			{/* Navbar on mobile (PUT OUTSIDE THE NAV)*/}
+			<Collapse open={isNavbarMobileOpen}>
+				<div className="flex flex-col gap-5 justify-center items-center text-center mx-4 py-5 border border-gray-20 rounded-xl">
+					{/* {navList()} */}
+					{/* Login button */}
+					<div className="">
+						<Link href="/login">
+							<Button
+								type="button"
+								title="Login"
+								icon="/user.svg"
+								variant="btn_login_mobile"
+							/>
+						</Link>
+					</div>
+				</div>
+			</Collapse>
 		</>
 	)
 }
