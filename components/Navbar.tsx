@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import { Collapse } from "@material-tailwind/react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 import { NAV_LINKS } from "@/constants";
@@ -117,9 +116,9 @@ export default function NavBar() {
 			</div>
 
 			{/* Navbar on mobile (PUT OUTSIDE THE NAV)*/}
-			<Collapse open={isNavbarMobileOpen}>
+			{isNavbarMobileOpen && (
 				<div className="flex flex-col gap-5 justify-center items-center text-center mx-4 py-5 border border-gray-20 rounded-xl">
-					{/* {navList()} */}
+					{navList()}
 					{/* Login button */}
 					<div className="">
 						<Link href="/login">
@@ -132,7 +131,7 @@ export default function NavBar() {
 						</Link>
 					</div>
 				</div>
-			</Collapse>
+			)}
 		</>
 	)
 }
