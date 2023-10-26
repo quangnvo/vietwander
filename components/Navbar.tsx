@@ -80,61 +80,10 @@ export default function NavBar() {
 					</Link>
 				</div>
 
-				{/* Icon Hamburger */}
-				<button
-					className="h-6 w-6 text-inherit lg:hidden dark:text-white"
-					onClick={() => { setIsNavbarMobileOpen(!isNavbarMobileOpen) }}
-				>
-					{isNavbarMobileOpen ? (
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							className="h-6 w-6"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							strokeWidth={2}
-						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								d="M6 18L18 6M6 6l12 12"
-							/>
-						</svg>
-					) : (
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="h-6 w-6"
-							fill="none"
-							stroke="currentColor"
-							strokeWidth={2}
-						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								d="M4 6h16M4 12h16M4 18h16"
-							/>
-						</svg>
-					)}
-				</button>
+				
 			</div>
 
-			{/* Navbar on mobile (PUT OUTSIDE THE NAV)*/}
-			<Collapse open={isNavbarMobileOpen}>
-				<div className="flex flex-col gap-5 justify-center items-center text-center mx-4 py-5 border border-gray-20 rounded-xl">
-					{navList()}
-					{/* Login button */}
-					<div className="">
-						<Link href="/login">
-							<Button
-								type="button"
-								title="Login"
-								icon="/user.svg"
-								variant="btn_login_mobile"
-							/>
-						</Link>
-					</div>
-				</div>
-			</Collapse>
+			
 		</>
 	)
 }
