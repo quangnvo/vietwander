@@ -7,6 +7,13 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Vietwander',
   description: 'Travelling app',
+
+  // This is the favicon of the website
+  // The /favicon.ico is the public path of the favicon
+  // So the favicon is located at "public/favicon.ico"
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

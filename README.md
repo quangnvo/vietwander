@@ -1,21 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![vietwander-logo](/documentation_images/vietwander-logo.svg)
 
-## Getting Started
+## About
 
-First, run the development server:
+**Vietwander** is bla bla bla
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live demo: [https://vietwander.vercel.app/](https://vietwander.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Build with:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.JS
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
+
+![vietwander-homepage](/documentation_images/vietwander-homepage.png)
