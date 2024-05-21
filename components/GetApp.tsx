@@ -32,7 +32,14 @@ const GetApp = () => {
 
 				{/* RIGHT */}
 				<div className="flex justify-center items-center">
-					<Image src="/phone-2.svg" alt="phones" width={320} height={500} />
+					<Image
+						src="/phone-2.png"
+						alt="phones"
+						width={320}
+						height={500}
+						unoptimized={true}
+						quality={100}
+					/>
 				</div>
 
 			</div>
